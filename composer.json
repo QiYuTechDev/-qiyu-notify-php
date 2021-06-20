@@ -18,6 +18,9 @@
         "qiyutech/type-array": "v0.1.1",
         "guzzlehttp/guzzle": "^7.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.5"
+    },
     "autoload": {
         "psr-4": {
             "Notify\\": "src/"
