@@ -2,7 +2,7 @@
 
 use PHPUnit\Framework\TestCase;
 
-final class StackTest extends TestCase
+final class DemoTest extends TestCase
 {
     public function testPushAndPop(): void
     {
