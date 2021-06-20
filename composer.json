@@ -16,7 +16,8 @@
     "require": {
         "php": ">=7.1",
         "qiyutech/type-array": "v0.1.2",
-        "guzzlehttp/guzzle": "^7.0"
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-json": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5.5"
