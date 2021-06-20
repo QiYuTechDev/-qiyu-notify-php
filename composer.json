@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=5.6",
-        "qiyutech/type-array": "v0.1.1",
+        "qiyutech/type-array": "v0.1.2",
         "guzzlehttp/guzzle": "^7.0"
     },
     "require-dev": {
