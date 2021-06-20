@@ -18,7 +18,7 @@ final class HttpTest extends TestCase
             $body = $resp->getBody();
             $content = $body->read(255);
             $this->assertEquals("pong", $content);
-        } catch (ClientExceptionInterface) {
+        } catch (ClientExceptionInterface $e) {
 
         }
     }
