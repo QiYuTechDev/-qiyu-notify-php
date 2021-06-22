@@ -1,2 +1,4 @@
 .idea
-test.php
+vendor
+.phpunit.result.cache
+composer.lock
