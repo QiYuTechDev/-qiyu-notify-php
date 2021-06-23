@@ -5,51 +5,46 @@
 namespace Notify;
 
 
+
 use Typed\TypedArray;
 
 class WxAppCreateDt extends TypedArray
 {
-
-
     /**
-     * 企业微信公司ID
+     * 应用名称
      * @var string
      */
+    public $app_name;
 
+    /**
+     * 企业微信 -> 公司ID
+     * @var string
+     */
     public $corp_id;
 
-
     /**
-     * 微信令牌
+     * 企业微信 -> 微信令牌
      * @var string
      */
-
     public $wx_token;
 
-
     /**
-     * AES密钥
+     * 企业微信 -> AES密钥
      * @var string
      */
-
     public $aes_key;
 
-
     /**
-     * AgentID
+     * 企业微信 -> AgentID
      * @var int
      */
-
     public $agent_id;
 
-
     /**
-     * 企业微信Secret
+     * 企业微信 -> Secret
      * @var string
      */
-
     public $secret;
-
 
 }
 

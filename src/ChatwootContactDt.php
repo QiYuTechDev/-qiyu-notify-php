@@ -9,23 +9,17 @@ use Typed\TypedArray;
 
 class ChatwootContactDt extends TypedArray
 {
-
-
     /**
      * 联系人ID
      * @var string
      */
-
     public $id;
-
 
     /**
      * 联系人名称
      * @var string
      */
-
     public $name;
-
 
 }
 

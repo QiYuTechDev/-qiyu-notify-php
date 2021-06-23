@@ -9,15 +9,11 @@ use Typed\TypedArray;
 
 class UserWhoamiDt extends TypedArray
 {
-
-
     /**
      * 用户的名称
      * @var string
      */
-
     public $username;
-
 
 }
 

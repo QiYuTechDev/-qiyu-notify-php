@@ -9,15 +9,11 @@ use Typed\TypedArray;
 
 class NotifyArgs extends TypedArray
 {
-
-
     /**
      * 通知内容
      * @var string
      */
-
     public $content;
-
 
 }
 

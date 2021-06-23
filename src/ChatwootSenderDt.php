@@ -9,31 +9,23 @@ use Typed\TypedArray;
 
 class ChatwootSenderDt extends TypedArray
 {
-
-
     /**
      * 发送者ID
      * @var string
      */
-
     public $id;
-
 
     /**
      * 发送者的名称
      * @var string
      */
-
     public $name;
-
 
     /**
      * 电子邮箱
      * @var string
      */
-
     public $email;
-
 
 }
 

@@ -9,23 +9,17 @@ use Typed\TypedArray;
 
 class DdAppVerifyDt extends TypedArray
 {
-
-
     /**
      * 唯一标识
      * @var string
      */
-
     public $unique_id;
-
 
     /**
      * 验证码
      * @var string
      */
-
     public $code;
-
 
 }
 

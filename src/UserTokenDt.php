@@ -9,15 +9,11 @@ use Typed\TypedArray;
 
 class UserTokenDt extends TypedArray
 {
-
-
     /**
      * token
      * @var string
      */
-
     public $token;
-
 
 }
 

@@ -9,22 +9,16 @@ use Typed\TypedArray;
 
 class ChatwootConversationDt extends TypedArray
 {
-
-
     /**
      * Display Id
      * @var string
      */
-
     public $display_id;
-
 
     /**
      * 其他属性
      */
-
     public $additional_attributes;
-
 
 }
 
