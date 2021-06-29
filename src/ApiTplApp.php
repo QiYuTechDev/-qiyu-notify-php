@@ -11,6 +11,7 @@ class ApiTplApp extends ApiBase
 
     /**
      * 获取自定义模版APP详情
+     * @param $query_args = ["unique_id" => "xxx"]
      */
     public static function do_get(
         $query_args
@@ -58,6 +59,7 @@ class ApiTplApp extends ApiBase
 
     /**
      * 删除自定义模版推送配置
+     * @param $query_args = ["unique_id" => "xxx"]
      */
     public static function do_delete(
         $query_args

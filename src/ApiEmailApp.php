@@ -11,6 +11,7 @@ class ApiEmailApp extends ApiBase
 
     /**
      * 添加电子邮箱
+     * @param $query_args = ["email" => "xxx"]
      */
     public static function do_put(
         $query_args
@@ -34,6 +35,7 @@ class ApiEmailApp extends ApiBase
 
     /**
      * 删除电子邮箱推送配置
+     * @param $query_args = ["unique_id" => "xxx"]
      */
     public static function do_delete(
         $query_args

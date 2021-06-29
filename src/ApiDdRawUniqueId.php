@@ -11,6 +11,7 @@ class ApiDdRawUniqueId extends ApiBase
 
     /**
      * 发送通知消息
+     * @param $path_args = ["unique_id" => "xxx"]
      */
     public static function do_post(
         $path_args

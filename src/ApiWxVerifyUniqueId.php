@@ -11,6 +11,8 @@ class ApiWxVerifyUniqueId extends ApiBase
 
     /**
      * 企业微信验证
+     * @param $path_args = ["unique_id" => "xxx"]
+     * @param $query_args = ["timestamp" => "xxx""msg_signature" => "xxx""nonce" => "xxx""echostr" => "xxx"]
      */
     public static function do_get(
         $path_args

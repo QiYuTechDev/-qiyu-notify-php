@@ -35,6 +35,7 @@ class ApiWxApp extends ApiBase
 
     /**
      * 删除企业微信配置
+     * @param $query_args = ["unique_id" => "xxx"]
      */
     public static function do_delete(
         $query_args

@@ -11,6 +11,7 @@ class ApiEmailMsgList extends ApiBase
 
     /**
      * 获取电子邮箱的邮件信息
+     * @param $query_args = ["unique_id" => "xxx"]
      * @return EmailMsgDt[]
      */
     public static function do_get(

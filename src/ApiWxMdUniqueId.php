@@ -11,6 +11,7 @@ class ApiWxMdUniqueId extends ApiBase
 
     /**
      * 发送 Markdown 通知消息到企业微信
+     * @param $path_args = ["unique_id" => "xxx"]
      */
     public static function do_post(
         $path_args

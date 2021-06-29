@@ -35,6 +35,7 @@ class ApiDdApp extends ApiBase
 
     /**
      * 删除钉钉推送配置
+     * @param $query_args = ["unique_id" => "xxx"]
      */
     public static function do_delete(
         $query_args

@@ -11,6 +11,7 @@ class ApiEmailChatwootUniqueId extends ApiBase
 
     /**
      * 邮箱 Chatwoot WebHook 回调
+     * @param $path_args = ["unique_id" => "xxx"]
      */
     public static function do_post(
         $path_args

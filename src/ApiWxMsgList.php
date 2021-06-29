@@ -11,6 +11,7 @@ class ApiWxMsgList extends ApiBase
 
     /**
      * 企业微信消息列表
+     * @param $query_args = ["unique_id" => "xxx"]
      * @return WxMsgDt[]
      */
     public static function do_get(

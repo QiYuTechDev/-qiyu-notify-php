@@ -11,6 +11,7 @@ class ApiDdMsgList extends ApiBase
 
     /**
      * 获取钉钉APP最新消息列表
+     * @param $query_args = ["unique_id" => "xxx"]
      * @return DdMsgDt[]
      */
     public static function do_get(

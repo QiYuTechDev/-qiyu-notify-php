@@ -11,6 +11,7 @@ class ApiTplNotifyUniqueId extends ApiBase
 
     /**
      * 发送自定义模版通知消息
+     * @param $path_args = ["unique_id" => "xxx"]
      */
     public static function do_post(
         $path_args

@@ -11,6 +11,8 @@ class ApiDdNotifyUniqueId extends ApiBase
 
     /**
      * 发送通知消息
+     * @param $path_args = ["unique_id" => "xxx"]
+     * @param $query_args = ["text" => "xxx"]
      */
     public static function do_get(
         $path_args
@@ -34,6 +36,7 @@ class ApiDdNotifyUniqueId extends ApiBase
 
     /**
      * 发送通知消息
+     * @param $path_args = ["unique_id" => "xxx"]
      */
     public static function do_post(
         $path_args

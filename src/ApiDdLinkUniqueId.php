@@ -11,6 +11,8 @@ class ApiDdLinkUniqueId extends ApiBase
 
     /**
      * 发送通知消息
+     * @param $path_args = ["unique_id" => "xxx"]
+     * @param $query_args = ["text" => "xxx""url" => "xxx"]
      */
     public static function do_get(
         $path_args
