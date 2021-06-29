@@ -5,10 +5,17 @@
 namespace Notify;
 
 
+
 use Typed\TypedArray;
 
 class TplAppInfoDt extends TypedArray
 {
+    /**
+     * 唯一标识
+     * @var string
+     */
+    public $unique_id;
+
     /**
      * 模版应用名称
      * @var string
@@ -16,10 +23,16 @@ class TplAppInfoDt extends TypedArray
     public $app_name;
 
     /**
-     * 唯一标识
+     * 模版
      * @var string
      */
-    public $unique_id;
+    public $tpl_code;
+
+    /**
+     * 用备注
+     * @var string
+     */
+    public $comment;
 
     /**
      * 微信应用信息
@@ -35,18 +48,6 @@ class TplAppInfoDt extends TypedArray
      * 钉钉应用信息
      */
     public $dd_app = DdAppInfoDt::class;
-
-    /**
-     * 模版
-     * @var string
-     */
-    public $tpl_code;
-
-    /**
-     * 备注
-     * @var string
-     */
-    public $comment;
 
     /**
      * 创建时间
